@@ -13,6 +13,7 @@ function Noticia({ noticia }) {
 
   return (
     <Grid item md={`6`} lg={`4`}>
+
       <Card>
         {urlToImage && (
           <CardMedia
